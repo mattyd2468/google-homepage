@@ -1,0 +1,5 @@
+/* Display image in centre */
+img {
+	display:block;
+	margin: auto;
+}
