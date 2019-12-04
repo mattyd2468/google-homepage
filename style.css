@@ -1,13 +1,65 @@
+/* Styling for navbar */
+ul{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	background-color: black;
+	color: #888888;
+}
+li{
+	display:inline;
+	width: 60px;
+	padding: 3px;
+	font-weight: bold;
+	font-family: arial,sans-serif;
+}
+li#sign-in{
+	float:right;
+}
+li#current-tab{
+	border-top-color: red;
+	border-top-style: solid;
+	border-top-width: 2px;
+}
+li:hover{
+	background-color:gray;
+}
+
 /* Display image and search box in centre */
 img, input {
 	display:block;
 	margin: auto;
 }
-input {
-	width: 300px;
+img{
+	width:30%;
+	height:30%;
 }
+input {
+	width: 350px;
+	height: 30px;
+}
+
 /* Div wrapper to center buttons */
 .center-button{
 	padding: 5px;
 	text-align: center;
+}
+
+/* Style footer */
+.footer{
+	text-align: center;
+}
+a{
+	display: inline;
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	padding: 5px;
+}
+a:hover{
+	text-decoration: underline;
+}
+p.footer{
+	font-size: 0.5em;
 }
