@@ -3,3 +3,11 @@ img, input {
 	display:block;
 	margin: auto;
 }
+input {
+	width: 300px;
+}
+/* Div wrapper to center buttons */
+.center-button{
+	padding: 5px;
+	text-align: center;
+}
