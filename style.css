@@ -1,5 +1,5 @@
-/* Display image in centre */
-img {
+/* Display image and search box in centre */
+img, input {
 	display:block;
 	margin: auto;
 }
